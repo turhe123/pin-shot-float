@@ -1,5 +1,7 @@
 # PinShotFloat
 
+**🌐 Website:** [turhe123.github.io/pin-shot-float](https://turhe123.github.io/pin-shot-float/)
+
 Capture a region and pin it as a floating, always-on-top reference window you can resize and fade.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -29,7 +31,17 @@ PinShotFloat is a free, open-source, 100% native, backend-free alternative to pa
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-pin-context-menu.png" alt="Floating pinned color palette with its context menu open" width="720"></p>
+
+<p align="center"><em>A pinned image floats above other windows, and its right-click menu offers opacity, click-through, copy, save, thumbnail and close.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-menu-bar.png" alt="PinShotFloat menu bar menu" width="560"></p>
+
+<p align="center"><em>The menu bar menu lets you capture a region, pin the clipboard image and show, hide or close all pins.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="PinShotFloat Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you rebind the hotkeys, set the default opacity, remember pins between launches, add a soft shadow and launch at login.</em></p>
 
 ## Install
 

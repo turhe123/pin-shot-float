@@ -1,0 +1,60 @@
+{
+  "seo_title": "Pin screenshots on top for macOS",
+  "seo_description": "PinShotFloat is a free, open-source menu bar app for macOS. Capture a region and pin it as a floating, resizable, fadeable reference window.",
+  "hero_title_line1": "Keep the reference",
+  "hero_title_accent": "right where you need it",
+  "hero_sub": "Press Control-Shift-1, drag over any part of your screen, and it becomes a floating window that stays on top. Resize it, fade it, or click through it.",
+  "features_title": "Capture, float, adjust, dismiss.",
+  "features_sub": "Everything you need to keep a reference in view, and nothing you don't.",
+  "features": [
+    {
+      "icon": "display",
+      "title": "Region capture on every display",
+      "desc": "A global hotkey dims all your displays so you can drag out a region. Capture uses ScreenCaptureKit at native Retina resolution, and Esc or right-click cancels."
+    },
+    {
+      "icon": "window",
+      "title": "Pins that stay on top",
+      "desc": "Each pin appears exactly where the pixels were taken. It floats over other windows, on all Spaces and over full-screen apps, without stealing focus."
+    },
+    {
+      "icon": "sliders",
+      "title": "Resize, fade, click through",
+      "desc": "Drag the edges to resize with the aspect ratio locked. Option-scroll or use the right-click menu to set opacity down to 10 percent, or let the mouse pass straight through."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Pin from the clipboard",
+      "desc": "A second hotkey, Control-Shift-2, pins any PNG, TIFF, JPEG or PDF image on your clipboard, centered on the pointer and scaled to fit the screen."
+    },
+    {
+      "icon": "folder",
+      "title": "Copy, save, or remember",
+      "desc": "Copy a pin back to the clipboard, save it as PNG, or turn on remembering to restore your pins at the next launch. Show, hide or close all of them from the menu bar."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Rebindable hotkeys",
+      "desc": "Change both hotkeys in Settings, along with default opacity, a soft drop shadow and launch at login. Double-click a pin to flip it to a thumbnail and back."
+    }
+  ],
+  "permissions_step": "When you first capture, grant Screen Recording in System Settings > Privacy & Security > Screen & System Audio Recording, then relaunch the app if macOS asks.",
+  "faq": [
+    {
+      "q": "Is PinShotFloat really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no accounts, subscriptions or ads. If it saves you time you can support development through the Ko-fi button in the menu bar or Settings."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Screen Recording, so it can capture a region of your screen. Launch at login is optional and uses the standard login item system. It does not ask for Accessibility or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. The app has no network access. If you enable remembering pins, they are saved as PNG files with a small JSON manifest in ~/Library/Application Support/PinShotFloat/Pins."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."
+    }
+  ]
+}

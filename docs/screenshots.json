@@ -1,0 +1,5 @@
+[
+  {"file":"01-pin-context-menu.png","caption":"A pinned image floats above other windows, and its right-click menu offers opacity, click-through, copy, save, thumbnail and close.","alt":"Floating pinned color palette with its context menu open"},
+  {"file":"02-menu-bar.png","caption":"The menu bar menu lets you capture a region, pin the clipboard image and show, hide or close all pins.","alt":"PinShotFloat menu bar menu"},
+  {"file":"03-settings.png","caption":"Settings let you rebind the hotkeys, set the default opacity, remember pins between launches, add a soft shadow and launch at login.","alt":"PinShotFloat Settings window"}
+]
